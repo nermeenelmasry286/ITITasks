@@ -1,0 +1,35 @@
+.main-title {
+  color: red;
+}
+.main-subtitle {
+  color: blue;
+}
+.main-btn {
+  color: red;
+}
+.main-btn:hover {
+  color: blue;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+@media (min-width: 350px) and (max-width: 700px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+@media (min-width: 700px) and (max-width: 1900px) {
+  .finish-btn {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+@import "./var";
+.main{
+    &-title{
+        color:$primaryColor;
+    }
+    &-subtitle{
+        color:$secondryColor;
+    }
+    &-btn{
+        color:$primaryColor;
+        &:hover{
+            color:$secondryColor
+        }
+    }
+}
+@each $font in $fonts{
+    .font-#{$font}{
+        font-size: $font;
+    }
+}
+@media (min-width:350px) and (max-width:700px){
+    .finish-btn{
+        width: 100%;
+    }
+}
+@media (min-width:700px) and (max-width:1900px){
+    .finish-btn{
+        width: 50%;
+    }
+}
