@@ -1,0 +1,10 @@
+.products-container {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.products-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
